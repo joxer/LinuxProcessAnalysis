@@ -1,0 +1,4 @@
+socket(AF_INET, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 12
+connect(12, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("93.184.216.34")}, 16) = -1 EINPROGRESS (Operation now in progress)
+getsockopt(12, SOL_SOCKET, SO_ERROR, [0], [4]) = 0
++++ exited with 0 +++

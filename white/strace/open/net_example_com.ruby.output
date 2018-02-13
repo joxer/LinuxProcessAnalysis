@@ -1,0 +1,12 @@
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+open("/proc/self/maps", O_RDONLY|O_CLOEXEC) = 3
+open("/etc/localtime", O_RDONLY|O_CLOEXEC) = 7
+open("/usr/lib/ruby/gems/2.3.0/specifications/default", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+open("/usr/lib/ruby/gems/2.3.0/specifications/default", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+open("/home/joxer/.gem/ruby/2.3.0/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/var/lib/gems/2.3.0/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/rubygems-integration/2.3.0/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems-integration/2.3.0/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/share/rubygems-integration/all/specifications", O_RDONLY|O_NONBLOCK|O_DIRECTORY|O_CLOEXEC) = 7
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 9
++++ exited with 0 +++

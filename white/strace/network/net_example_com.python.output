@@ -1,0 +1,33 @@
+socket(AF_INET6, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_IP) = 3
+bind(3, {sa_family=AF_INET6, sin6_port=htons(0), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=12548, si_uid=0, si_status=0, si_utime=0, si_stime=0} ---
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC|SOCK_NONBLOCK, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.53")}, 16) = 0
+sendmmsg(3, [{msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\372\n\1\0\0\1\0\0\0\0\0\0\7example\3com\0\0\1\0\1", iov_len=29}], msg_iovlen=1, msg_controllen=0, msg_flags=MSG_CTRUNC|MSG_DONTWAIT|MSG_EOR|MSG_WAITALL|MSG_SYN|MSG_CONFIRM|MSG_RST|MSG_NOSIGNAL|MSG_MORE|MSG_WAITFORONE|MSG_FASTOPEN|MSG_CMSG_CLOEXEC|0x1d780010}, msg_len=29}, {msg_hdr={msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="\222\20\1\0\0\1\0\0\0\0\0\0\7example\3com\0\0\34\0\1", iov_len=29}], msg_iovlen=1, msg_controllen=0, msg_flags=MSG_RST|MSG_ERRQUEUE|MSG_MORE|MSG_FASTOPEN|MSG_CMSG_CLOEXEC|0x1eea0000}, msg_len=29}], 2, MSG_NOSIGNAL) = 2
+recvfrom(3, "\372\n\201\200\0\1\0\1\0\0\0\0\7example\3com\0\0\1\0\1\300\f\0"..., 2048, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.53")}, [28->16]) = 45
+recvfrom(3, "\222\20\201\200\0\1\0\1\0\0\0\0\7example\3com\0\0\34\0\1\300\f\0"..., 65536, 0, {sa_family=AF_INET, sin_port=htons(53), sin_addr=inet_addr("127.0.0.53")}, [28->16]) = 57
+socket(AF_NETLINK, SOCK_RAW, NETLINK_ROUTE) = 3
+bind(3, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+getsockname(3, {sa_family=AF_NETLINK, nl_pid=12547, nl_groups=00000000}, [12]) = 0
+sendto(3, {{len=20, type=0x16 /* NLMSG_??? */, flags=NLM_F_REQUEST|0x300, seq=1518554981, pid=0}, "\0\0\0\0"}, 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+recvmsg(3, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{{len=76, type=0x14 /* NLMSG_??? */, flags=NLM_F_MULTI, seq=1518554981, pid=12547}, "\2\10\200\376\1\0\0\0\10\0\1\0\177\0\0\1\10\0\2\0\177\0\0\1\7\0\3\0lo\0\0"...}, {{len=88, type=0x14 /* NLMSG_??? */, flags=NLM_F_MULTI, seq=1518554981, pid=12547}, "\2\30\0\0\3\0\0\0\10\0\1\0\300\250\1\t\10\0\2\0\300\250\1\t\10\0\4\0\300\250\1\377"...}, {{len=32756, type=0x7390 /* NLMSG_??? */, flags=NLM_F_ACK|0xd300, seq=32764, pid=2129299136}, "\364\177\0\0\0\0\0\0\0\0\0\0po\4\323\374\177\0\0xo\4\323\374\177\0\0\200o\4\323"...}], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 164
+recvmsg(3, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{{len=72, type=0x14 /* NLMSG_??? */, flags=NLM_F_MULTI, seq=1518554981, pid=12547}, "\n\200\200\376\1\0\0\0\24\0\1\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\1\24\0\6\0"...}, {{len=72, type=0x14 /* NLMSG_??? */, flags=NLM_F_MULTI, seq=1518554981, pid=12547}, "\n@\200\375\3\0\0\0\24\0\1\0\376\200\0\0\0\0\0\0\320U\"\345\373\234W\204\24\0\6\0"...}, {{len=393236, type=0xa70 /* NLMSG_??? */, flags=0, seq=2672, pid=1377}, "\30\357\4\0\364\177\0\0\220s\4\323\374\177\0\0\300\206\352~\364\177\0\0\0\0\0\0\0\0\0\0"...}], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 144
+recvmsg(3, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{{len=20, type=NLMSG_DONE, flags=NLM_F_MULTI, seq=1518554981, pid=12547}, "\0\0\0\0"}, {{len=1, type=0x14 /* NLMSG_??? */, flags=NLM_F_REQUEST, seq=0, pid=0}}], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+socket(AF_INET, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("93.184.216.34")}, 16) = 0
+getsockname(3, {sa_family=AF_INET, sin_port=htons(48547), sin_addr=inet_addr("192.168.1.9")}, [28->16]) = 0
+socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 3
+connect(3, {sa_family=AF_INET6, sin6_port=htons(80), inet_pton(AF_INET6, "2606:2800:220:1:248:1893:25c8:1946", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = -1 ENETUNREACH (Network is unreachable)
+socket(AF_INET, SOCK_STREAM|SOCK_CLOEXEC, IPPROTO_TCP) = 3
+setsockopt(3, SOL_TCP, TCP_NODELAY, [1], 4) = 0
+connect(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("93.184.216.34")}, 16) = 0
+sendto(3, "GET /index.html HTTP/1.1\r\nHost: "..., 74, 0, NULL, 0) = 74
+recvfrom(3, "HTTP/1.1 200 OK\r\nCache-Control: "..., 8192, 0, NULL, NULL) = 1448
+recvfrom(3, "king for permission.</p>\n    <p>"..., 8192, 0, NULL, NULL) = 129
+getsockname(3, {sa_family=AF_INET, sin_port=htons(56400), sin_addr=inet_addr("192.168.1.9")}, [16]) = 0
+getpeername(3, {sa_family=AF_INET, sin_port=htons(80), sin_addr=inet_addr("93.184.216.34")}, [16]) = 0
++++ exited with 0 +++

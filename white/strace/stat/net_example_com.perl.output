@@ -1,0 +1,8 @@
+stat("/usr/lib/x86_64-linux-gnu/perl-base/5.26.0/x86_64-linux-gnu-thread-multi", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/perl-base/5.26.0", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/site_perl/5.26.0/x86_64-linux-gnu-thread-multi", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/site_perl/5.26.0", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/site_perl/x86_64-linux-gnu-thread-multi", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/x86_64-linux-gnu/perl-base/x86_64-linux-gnu-thread-multi", 0x7ffceff75810) = -1 ENOENT (No such file or directory)
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
++++ killed by SIGINT +++

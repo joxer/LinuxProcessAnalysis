@@ -1,0 +1,3 @@
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+--- SIGINT {si_signo=SIGINT, si_code=SI_KERNEL} ---
++++ killed by SIGINT +++

@@ -1,0 +1,4 @@
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
+stat("/dev/pts/3", {st_mode=S_IFCHR|0620, st_rdev=makedev(136, 3), ...}) = 0
++++ exited with 0 +++

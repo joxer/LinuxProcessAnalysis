@@ -1,0 +1,108 @@
+stat("/usr/local/sbin/python", 0x7ffe762cfb90) = -1 ENOENT (No such file or directory)
+stat("/usr/local/bin/python", 0x7ffe762cfb90) = -1 ENOENT (No such file or directory)
+stat("/usr/sbin/python", 0x7ffe762cfb90) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/python", {st_mode=S_IFREG|0755, st_size=3617176, ...}) = 0
+stat("/usr/bin/Modules/Setup", 0x7ffe762ceac0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.py", 0x7ffe762ceab0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/os.pyc", 0x7ffe762ceab0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/os.py", {st_mode=S_IFREG|0644, st_size=25910, ...}) = 0
+stat("/usr/bin/pybuilddir.txt", 0x7ffe762ceac0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/lib/python2.7/lib-dynload", 0x7ffe762ceac0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+stat("/usr/lib/python2.7/site", 0x7ffe762cf920) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/os", 0x7ffe762cf480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/posixpath", 0x7ffe762cefe0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/stat", 0x7ffe762ceb40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/genericpath", 0x7ffe762ceb40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/warnings", 0x7ffe762ceb40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/linecache", 0x7ffe762ce6a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/types", 0x7ffe762ce6a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/UserDict", 0x7ffe762cefe0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_abcoll", 0x7ffe762ceb40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/abc", 0x7ffe762ce6a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_weakrefset", 0x7ffe762ce200) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/copy_reg", 0x7ffe762cefe0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/traceback", 0x7ffe762cf480) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sysconfig", 0x7ffe762cf040) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/Modules/Setup.dist", 0x7ffe762cfaf0) = -1 ENOENT (No such file or directory)
+stat("/usr/bin/Modules/Setup.local", 0x7ffe762cfaf0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/re", 0x7ffe762ced50) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_compile", 0x7ffe762ce8b0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_parse", 0x7ffe762ce410) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/sre_constants", 0x7ffe762cdf70) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_sysconfigdata", 0x7ffe762cec40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/_sysconfigdata_nd", 0x7ffe762ce7a0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/_sysconfigdata_nd", 0x7ffe762ce7a0) = -1 ENOENT (No such file or directory)
+stat("/home/joxer/.local/lib/python2.7/site-packages", 0x7ffe762d02c0) = -1 ENOENT (No such file or directory)
+stat("/home/joxer/.local/local/lib/python2.7/dist-packages", 0x7ffe762d02c0) = -1 ENOENT (No such file or directory)
+stat("/home/joxer/.local/lib/python2.7/dist-packages", 0x7ffe762d02c0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/setuptools-28.8.0-py2.7.egg", {st_mode=S_IFREG|0644, st_size=557900, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/pip-9.0.1-py2.7.egg", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/sitecustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/lib-tk/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-old", 0x7ffe762cdb50) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7", {st_mode=S_IFDIR|0755, st_size=24576, ...}) = 0
+stat("/usr/lib/python2.7/lib-old", 0x7ffe762ceb40) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload", {st_mode=S_IFDIR|0755, st_size=12288, ...}) = 0
+stat("/usr/lib/python2.7/lib-dynload/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages", {st_mode=S_IFDIR|S_ISGID|0775, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/setuptools-28.8.0-py2.7.egg", {st_mode=S_IFREG|0644, st_size=557900, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/pip-9.0.1-py2.7.egg", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/pip-9.0.1-py2.7.egg", {st_mode=S_IFDIR|S_ISGID|0755, st_size=4096, ...}) = 0
+stat("/usr/local/lib/python2.7/dist-packages/pip-9.0.1-py2.7.egg/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/apport_python_hook", 0x7ffe762cedc0) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/local/lib/python2.7/dist-packages/pip-9.0.1-py2.7.egg/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/gtk-2.0/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/dist-packages/wx-3.0-gtk2/usercustomize", 0x7ffe762cf260) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__.py", {st_mode=S_IFREG|0644, st_size=5698, ...}) = 0
+stat("/usr/lib/python2.7/encodings/__init__", 0x7ffe762cfa20) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings", {st_mode=S_IFDIR|0755, st_size=20480, ...}) = 0
+stat("/usr/lib/python2.7/encodings/codecs", 0x7ffe762cf580) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/codecs", 0x7ffe762cf580) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/encodings", 0x7ffe762cf580) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/aliases", 0x7ffe762cf520) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/__builtin__", 0x7ffe762cf580) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/encodings/utf_8", 0x7ffe762cf7c0) = -1 ENOENT (No such file or directory)
+stat("readline", 0x7ffe762cf970)        = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/readline", 0x7ffe762cf970) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/plat-x86_64-linux-gnu/readline", 0x7ffe762cf970) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-tk/readline", 0x7ffe762cf970) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/python2.7/lib-dynload/readline", 0x7ffe762cf970) = -1 ENOENT (No such file or directory)
+stat("/home/joxer/.terminfo", 0x55c09e7ce310) = -1 ENOENT (No such file or directory)
+stat("/etc/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/lib/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/usr/share/terminfo", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat("/home/joxer/.inputrc", 0x7ffe762d0870) = -1 ENOENT (No such file or directory)
+stat("/etc/inputrc", {st_mode=S_IFREG|0644, st_size=1748, ...}) = 0
++++ exited with 0 +++
